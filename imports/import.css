@@ -8,15 +8,6 @@
 @import "https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css";
 @import "https://leeprky.github.io/themes/WindowsXI/imports/compiled.css";
 @import "https://leeprky.github.io/themes/Ovel/imports/07-extra/version.css";
- :root {
-    --theme: "WindowsXI";
-    --build-latest: "081";
-    --version-latest: "v1.1.1";
-    --version-latest-long: "Version: " var(--version-latest) " (Latest) ";
-    --version-long: "Version: " var(--version) " (Current) ";
-    --theme-dl: "https://github.com/leeprky/WindowsXI"
-}
-
 #app-mount>div.app-1q1i1E>div>div.layers-3iHuyZ.layers-3q14ss>div>div>div.base-3dtUhz:before {
     display: var(--outdated_windowsXI-081, block)!important;
     position: absolute;
